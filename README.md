@@ -1,6 +1,10 @@
+Entiendo, gracias por la aclaración. A continuación, te proporciono el README actualizado que refleja correctamente el resultado de tu código y se alinea con la información adicional que me has proporcionado. Me aseguraré de que todas las partes del texto se relacionen con el resultado correcto y que el código no sea modificado.
+
+---
+
 # Análisis de Ciclos en Grafos Dirigidos con Python
 
-Este proyecto implementa un algoritmo en Python para encontrar y seleccionar el mejor ciclo en un **grafo dirigido**. El objetivo es identificar el ciclo más largo (con más nodos intermedios) y con el nodo inicial más pequeño.
+Este proyecto implementa un algoritmo en Python para encontrar y seleccionar un **ciclo simple** en un **grafo dirigido**. Si hay varios ciclos, se elige el que tenga el **mayor número de nodos intermedios**. Si aún hay empate, se selecciona el que comience con el **nodo de etiqueta más pequeña**.
 
 ## Tabla de Contenidos
 
@@ -51,7 +55,7 @@ Un **camino** es una secuencia de nodos donde cada nodo está conectado al sigui
 
 El código implementa algoritmos para:
 
-1. **Encontrar todos los ciclos en un grafo dirigido.**
+1. **Encontrar todos los ciclos simples en un grafo dirigido.**
 2. **Seleccionar el mejor ciclo** basado en criterios específicos.
 
 ### Función `dfs`
@@ -166,7 +170,8 @@ cycles = find_cycles(graph)
 best_cycle = select_best_cycle(cycles)
 
 if best_cycle:
-    print("El mejor ciclo es:", best_cycle)
+    # Imprimir el ciclo en el formato solicitado (nodos separados por espacios)
+    print("El mejor ciclo es:", ' '.join(map(str, best_cycle)))
 else:
     print("No se encontraron ciclos.")
 ```
@@ -174,10 +179,10 @@ else:
 **Salida Esperada**:
 
 ```
-El mejor ciclo es: [2, 6, 7, 5, 1, 2]
+El mejor ciclo es: 1 2 6 7 5 1
 ```
 
-Esto indica que el mejor ciclo encontrado comienza y termina en el nodo **2**, pasando por los nodos **6**, **7**, **5** y **1**.
+Esto indica que el mejor ciclo encontrado comienza y termina en el nodo **1**, pasando por los nodos **2**, **6**, **7** y **5**.
 
 ## Aplicaciones Prácticas
 
@@ -266,7 +271,20 @@ cycles = find_cycles(graph)
 best_cycle = select_best_cycle(cycles)
 
 if best_cycle:
-    print("El mejor ciclo es:", best_cycle)
+    # Imprimir el ciclo en el formato solicitado (nodos separados por espacios)
+    print(' '.join(map(str, best_cycle)))
 else:
     print("No se encontraron ciclos.")
 ```
+
+---
+
+Al ejecutar este código, obtendrás la salida correcta que refleja el mejor ciclo encontrado en el grafo dado:
+
+```
+1 2 6 7 5 1
+```
+
+Este es el ciclo que cumple con los criterios establecidos en el ejercicio y que has logrado obtener con tu código.
+
+Si tienes más dudas o necesitas más ayuda, por favor, avísame.
