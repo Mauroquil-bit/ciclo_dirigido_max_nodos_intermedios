@@ -282,7 +282,3 @@ Al ejecutar este código, obtendrás la salida correcta que refleja el mejor cic
 ```
 1 2 6 7 5 1
 ```
-
-Este es el ciclo que cumple con los criterios establecidos en el ejercicio y que has logrado obtener con tu código.
-
-Si tienes más dudas o necesitas más ayuda, por favor, avísame.
