@@ -1,5 +1,3 @@
-Entiendo, gracias por la aclaración. A continuación, te proporciono el README actualizado que refleja correctamente el resultado de tu código y se alinea con la información adicional que me has proporcionado. Me aseguraré de que todas las partes del texto se relacionen con el resultado correcto y que el código no sea modificado.
-
 ---
 
 # Análisis de Ciclos en Grafos Dirigidos con Python
