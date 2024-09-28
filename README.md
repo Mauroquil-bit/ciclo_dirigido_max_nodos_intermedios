@@ -1,6 +1,6 @@
 ---
 
-# Análisis de Ciclos en Grafos Dirigidos con Python
+# Análisis de Ciclos en Grafos Dirigidos con Python 🚀
 
 Este proyecto implementa un algoritmo en Python para encontrar y seleccionar un **ciclo simple** en un **grafo dirigido**. Si hay varios ciclos, se elige el que tenga el **mayor número de nodos intermedios**. Si aún hay empate, se selecciona el que comience con el **nodo de etiqueta más pequeña**.
 
@@ -22,7 +22,7 @@ Este proyecto implementa un algoritmo en Python para encontrar y seleccionar un 
 - [Conclusión](#conclusión)
 - [Referencias](#referencias)
 
-## Introducción a los Grafos
+## Introducción a los Grafos 🌐
 
 Un **grafo** es una estructura matemática utilizada para modelar relaciones entre objetos. Consta de:
 
@@ -31,9 +31,11 @@ Un **grafo** es una estructura matemática utilizada para modelar relaciones ent
 
 Los grafos pueden ser **dirigidos** (donde las aristas tienen una dirección) o **no dirigidos** (sin dirección en las aristas).
 
-## Conceptos Clave
+![Grafo Dirigido](./grafo.png)
 
-### Nodos y Aristas
+## Conceptos Clave 🔑
+
+### Nodos y Aristas 📍
 
 - **Nodo**: Unidad básica del grafo, puede representar un punto, objeto o estado.
 - **Arista**: Conexión entre dos nodos, puede ser unidireccional o bidireccional.
